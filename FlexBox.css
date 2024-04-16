@@ -1,0 +1,77 @@
+body
+{
+    background-color: black;
+}
+h1
+{
+    color: #ccc;
+    text-align: center;
+}
+.caixa/*Section ou pai*/
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.item/*div ou filhos*/
+{
+    background-color: tomato;
+    font-size: 32px;
+    text-align: center;
+    margin: 5px;
+}
+.CaixaComFlex /*Section ou pai que receberá o display felex*/
+{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+}
+.CaixaComFlexeWrap/*section ou pai que receberá o display flex e wrap*/
+{
+    width: 405px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+.CaixaFlexStar/*Section ou pai que receberá o justify-content: flex-start;*/
+{
+    width: 405px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+}
+.CaixaFlexEnd
+{
+    width: 405px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-end;
+}
+.CaixaSpacebetween
+{
+    width: 405px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+.CaixaSpaceAround
+{
+    width: 405px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+.CaixaCenter
+{
+    width: 405px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+}
